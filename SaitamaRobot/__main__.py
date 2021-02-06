@@ -23,7 +23,9 @@ from telegram.utils.helpers import escape_markdown
 PM_START_TEXT = """
 
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
+I am an ⚡ Anime ⚡ themed group management bot.
+Build by ⚡ SUM ⚡ , I Specialize in managing 
+Anime and similar themed Groups 💢.
 You can find my list of available commands with /help.
 
 i'm a group manager bot. Maintained by @LEAVEIY
@@ -31,7 +33,7 @@ i'm a group manager bot. Maintained by @LEAVEIY
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is 👀 *{}*.
 
 *Main* commands available:
  • /start: start the bot
@@ -49,7 +51,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/bbf93f659fbd82f652ccb.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/e3549912b08fc5a49b4c7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
